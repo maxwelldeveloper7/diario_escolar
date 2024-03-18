@@ -12,12 +12,13 @@ class Turma:
 
     def __str__(self):
         """Retorna as inforações em forma de texto"""
+        
         return "Turma: {}\nAno: {}\nDisciplnas: {}\nProfessores: {}\
             \nAlunos: {}".format(
             self.nome,
+            self.ano,
             self.disciplinas,
             self.professores,
-            self.ano,
             self.alunos          
         )
 
